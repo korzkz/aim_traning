@@ -1,0 +1,46 @@
+@font-face {
+    font-family: font;
+    src: url(../css/fonts/GilmerHeavy.ttf);
+}
+
+body {
+    background-color: rgb(68, 68, 68);
+}
+
+.frame {
+    width: 400px;
+    height: 400px;
+    border: 2px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(153, 255, 0, 0.4);
+    transition: 1s;
+}
+
+.ball {
+    width: 50px;
+    height: 50px;
+    border-radius: 90px;
+    background-color: grey;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    box-shadow: inset 0px 0px 10px black;
+}
+
+.ball:hover {
+    background-color: rgb(80, 80, 80);
+}
+
+.points {
+    font-family: font;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    user-select: none;
+}
