@@ -29,6 +29,7 @@ body {
     top: 50%;
     left: 50%;
     box-shadow: inset 0px 0px 10px black;
+    transition: 0.05s;
 }
 
 .ball:hover {
